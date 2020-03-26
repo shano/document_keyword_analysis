@@ -41,7 +41,11 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 
-Then go to http://localhost:5000/keywords or http://localhost:5000/keyword/:id
+## Query Data
+```bash
+curl localhost:5000/keywords
+curl localhost:5000/keyword/1
+```
 
 ## TODO
 
