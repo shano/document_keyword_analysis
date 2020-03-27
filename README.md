@@ -50,9 +50,9 @@ curl localhost:5000/keyword/1
 ## TODO
 
 * API Tests
-* Move anything that requires a search to a FTS engine(postgres or elasticsearc perhaps?)
+* Move anything that requires a search to a FTS engine(postgres or elasticsearch perhaps?)
 * Proper API Pipeline would be nice, investigated Luigi - looks awesome but wasted too much time on boilerplate, command.py replaced it.
-* Parralelise all the things. Could be multi-processor(esp the doc insertion) or separate queues/lambdas/celery tasks
+* Parallelise all the things. Could be multi-processor(esp the doc insertion) or separate queues/lambdas/celery tasks
 * Split data processing functions up more
 * Take in path/keyword count as args
 * More efficient serving of related data
